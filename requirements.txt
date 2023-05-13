@@ -2,7 +2,6 @@ absl-py==1.4.0
 altair==4.2.2
 deta==1.1.0
 gcloud==0.18.3
-otobuf==3.20.3
 pyarrow==8.0.0
 pyasn1-modules==0.2.8
 pycosat==0.6.3
