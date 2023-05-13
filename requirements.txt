@@ -9,3 +9,4 @@ pyarrow==8.0.0
 python-dotenv==1.0.0
 streamlit==1.22.0
 streamlit-authenticator==0.2.2
+plotly >= 5.0.0
