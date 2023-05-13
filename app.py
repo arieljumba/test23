@@ -5,7 +5,7 @@ from deta import Deta
 
 st.title('connect db')
 
-deta = st.secrets["DETA_KEY"]
+deta = st.secrets.db_credentials.db_key
 
 #create a database
 db = deta.Base("users_db")
