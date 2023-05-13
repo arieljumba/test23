@@ -7,7 +7,7 @@ st.title('connect db')
 
 deta = st.secrets["auth_token"]
 #create a database
-db = deta.Deta.Base("users_db")
+db = deta.Base("new_db")
 
 def insert_user(username,name, role, password):
     #returns user on a succesful creation otherwise raises an error
